@@ -1,0 +1,367 @@
+body {
+	font-family: 'asap', ubuntu, calibri, sans;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+a {
+	transition: color ease 0.36s;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+nav {
+	font-size: 1.2em;
+}
+
+nav.top-nav, .navbar-inverse {
+	background-color: rgba(0, 0, 0, 0.873);
+}
+
+.top-nav ul.nav {
+	display: flex;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.top-nav ul.nav li {
+	flex-grow: 1;
+	text-align: center;
+}
+
+.navbar-brand {
+	width: 123px;
+}
+
+.navbar-brand img {
+	width: 123px;
+}
+
+.navbar-brand {
+	padding: 0;
+}
+
+.top-nav ul.nav > li > a {
+	color: #aaa;
+}
+
+.top-nav ul.nav > li:hover > a {
+	color: #ddd;
+	background-color: transparent;
+}
+
+.navbar li.active > a {
+	background-color: transparent !important;
+	color: #67a1ff !important;
+	text-shadow: 1px 1px #606060;
+}
+
+.nav-notice {
+	color: #eee;
+	padding: 0 9px;
+	text-align: center;
+}
+
+h1, h2 {
+	font-family: 'Dosis', myriad apple;
+}
+
+.wrapper h1, .wrapper h2 {
+	color: #3868B6;
+}
+
+footer .wrapper h1 {
+	color: #67a1ff;
+}
+
+.news h1, .news dt > a, .news dt, .news h2 {
+	color: #5CA816;
+}
+
+.news dt > a:hover {
+	color: rgb(71, 129, 18);
+}
+
+.news dt, .news dt {
+	font-size: 1.6em;
+	font-weight: normal;
+}
+
+.news .btn-default:hover > .glyphicon, .news .btn-default:focus > .glyphicon, .news .btn-default:active > .glyphicon {
+	color: #94F838;
+}
+
+.service h1, .service h2 > a {
+	color: #BC0028;
+}
+
+.service h2 > a:hover {
+	color: rgb(158, 0, 33);
+}
+
+.service .btn-default:hover > .glyphicon, .service .btn-default:focus > .glyphicon, .service .btn-default:active > .glyphicon {
+	color: #E4265C;
+}
+
+dd, dt {
+	padding: 5px 0;
+}
+
+.date-holder {
+	position: relative;
+	color: #67a1ff;
+	min-height: 72px;
+	display: block;
+	float: left;
+	width: 67px;
+	text-shadow: 4px 4px 2px #ddd;
+}
+
+.date-holder .date {
+	position: absolute;
+	font-size: 2.7em;
+}
+
+.date-holder .month {
+	position: absolute;
+	bottom: 0px;
+	left: 9px;
+}
+
+.btn-default {
+	color: #eee;
+	background-color: #333;
+	transition: 0.36s;
+	border: medium none;
+	font-size: 1.1em;
+}
+
+.btn-default > .glyphicon {
+	transition: 0.36s;
+}
+
+.btn-default:hover, .btn-default:active, .btn-default:focus {
+	background-color: #222;
+	color: #eee;
+}
+
+.btn-default:hover > .glyphicon, .btn-default:active > .glyphicon, .btn-default:focus > .glyphicon {
+	color: #67a1ff;
+}
+
+.wrapper {
+	padding: 36px 18px;
+}
+
+h1 > .glyphicon {
+	font-size: 0.72em;
+}
+
+footer {
+	background-color: #222;
+	color: #eee;
+	padding-bottom: 10px;
+}
+
+footer .btn-default {
+	border: 1px solid #eee;
+}
+
+footer .btn-default:hover > .glyphicon {
+	color: #94F838;
+}
+
+footer .date-holder {
+	text-shadow: 4px 4px 2px #444;
+	color: #94F838;
+}
+
+footer .cal h2 > a, footer .cal h1 {
+	color: #94F838;
+}
+
+footer .cal h2 > a:hover {
+	color: #5CA816;
+}
+
+footer .row p + p {
+	text-indent: 45px;
+}
+
+footer > p{
+	text-align: center;
+	bottom: 0px;
+	color: #aaa;
+}
+
+.yellow {
+	color: #E3E012 !important;
+}
+
+#login .modal-dialog {
+	margin-top: 10%;
+}
+
+#login .modal-content {
+	background: rgba(0, 0, 0, 0.54);
+	border: medium none;
+	color: #fff;
+}
+
+#login .modal-content .modal-header {
+	border: medium none;
+}
+
+#login .modal-content .modal-header a.glyphicon {
+	color: #fff;
+	float: right;
+	padding: 5px;
+}
+
+#login .form-control {
+	text-align: center;
+	font-size: 1.2em;
+	font-family: myriad apple;
+}
+
+#login .btn-info {
+	font-size: 1.2em;
+}
+
+.well h2 {
+	color: #333;
+}
+
+.course-list {
+	padding: 10px;
+	position: fixed;
+	width: 320px;
+	left: -320px;
+	z-index: 100;
+	margin: 0px;
+	background: rgba(0, 0, 0, 0.75) none repeat scroll 0% 0%;
+	top: 29%;
+	transition: all ease 0.54s !important;
+}
+
+.course-list.active {
+	left: 0;
+}
+
+.show-list {
+	position: fixed;
+	top: 30%;
+	right: 14px;
+	z-index: 101;
+	font-size: 20px;
+	color: #333;
+	padding: 10px;
+}
+
+.course-list li {
+	display: block;
+}
+
+.course-list li > a {
+	display: block;
+	padding: 4px 7px;
+	font-variant: small-caps;
+	color: #eee;
+	font-size: 1.1em;
+}
+
+.course-list li > a:hover {
+	color: #94F838;
+}
+
+.course-list li.active > a {
+	color: tomato;
+	font-weight: bold;
+}
+
+.course-list li.active > a > .badge {
+	background-color: tomato;
+}
+
+.course-block {
+	position: relative;
+}
+
+.course-block > img {
+	width: 100%;
+}
+
+.course-block:hover > span {
+	color: #94F838;
+}
+
+.course-block > span {
+	position: absolute;
+	display: block;
+	padding: 5px;
+	color: #eee;
+	background-color: rgba(0,0,0,0.63);
+	font-weight: bold;
+	bottom: 0px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	transition: color 0.36s ease;
+}
+
+#courses > .col-xs-12 {
+	padding: 0;
+	margin-bottom: 25px;
+}
+
+@media only screen and (min-width: 768px) {
+	.top-nav > p {
+		text-align: left;
+		display: inline-block;
+		height: 40px;
+		font-size: 16px;
+	}
+
+	.top-nav ul.nav {
+		display: block;
+		float: right;
+		width: 280px;
+	}
+
+	.top-nav ul.nav > li {
+		display: inline-block;
+	}
+
+	p, dd, dt {
+		font-size: 1.125em;
+	}
+
+	.date-holder {
+		min-height: 81px;
+	}
+
+	.row > div {
+		padding: 9px 25px;
+	}
+
+	.course-list {
+		width: 25%;
+		display: inline-block;
+		position: fixed;
+		left: 0px;
+		top: 43.2%;
+		margin-left: 75%;
+	}
+
+	.course-list li > a > .badge {
+		position: relative;
+		top: -2px;
+	}
+
+	.show-list {
+		display: none !important;
+	}
+}

@@ -1,0 +1,9 @@
+/*@import url(http://fonts.googleapis.com/css?family=Asap);*/
+
+@font-face {
+  font-family: 'Asap';
+  font-style: normal;
+  font-weight: 400;
+  /*src: local('Asap'), local('Asap-Regular'), url(http://fonts.gstatic.com/s/asap/v4/oiVlPAjaPL0EznW3E5Z2DQ.woff2) format('woff2'), url(http://fonts.gstatic.com/s/asap/v4/SgBaq0dzhSGNMfqm2JX5ng.woff) format('woff');*/
+  src: local('Asap'), local('Asap-Regular'), url(../fonts/oiVlPAjaPL0EznW3E5Z2DQ.woff2) format('woff2'), url(../fonts/SgBaq0dzhSGNMfqm2JX5ng.woff) format('woff');
+}
