@@ -317,6 +317,20 @@ footer > p{
 	margin-bottom: 25px;
 }
 
+.login-menu {
+	background-color: rgba(0,0,0,0.8);
+	font-size: 1.0em;
+}
+
+.login-menu li > a {
+	color: #eee;
+}
+
+.login-menu li > a:hover {
+	color: #94F838;
+	background-color: rgba(0,0,0,0.36);
+}
+
 @media only screen and (min-width: 768px) {
 	.top-nav > p {
 		text-align: left;

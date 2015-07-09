@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Contact Us | NIELIT Aurangabad</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/jquery.toolbar.css">
+		<link rel="stylesheet" type="text/css" href="css/theme.css">
+		<link href='http://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="css/asap.css">
+	</head>
+	<body>
+		<header>
+			<nav class="top-nav">
+				<p class="nav-notice">
+					Notice ipsum will go here.
+				</p>
+				<ul class="nav">
+					<li><a href="#">SIPB</a></li>
+					<li><a href="#">NIELIT-A</a></li>
+					<li><a href="#">CMS</a></li>
+				</ul>
+			</nav>
+			<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<a href="index.html" class="navbar-brand"><img src="img/logo.png" class="img-responsive"></a>
+						<button type="button" class="navbar-toggle" data-target="#main-nav" data-toggle="collapse">
+							<span class="sr-only">Toggle Navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					</div>
+					<div class="navbar-collapse collapse" id="main-nav">
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="archive.html">Archive</a></li>
+							<li><a href="webmail.html">Webmail</a></li>
+							<li><a href="courses.html">Courses</a></li>
+							<li class="active"><a href="contact.html">Contact Us</a></li>
+							<li><a href="#login" data-toggle="modal" data-target="#login">Login</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<section class="wrapper">
+			<div class="row">
+				<div class="col-xs-12 col-sm-5 col-sm-push-7">
+					// Recent notices
+				</div>
+				<div class="col-xs-12 col-sm-7 col-sm-pull-5">
+					<h1>Post a Notice</h1>
+					<hr/>
+					<form role='form'>
+						<div class="form-group">
+							<label class="control-label" for="">Subject:</label>
+							<div class="input-group">
+								<span class="input-group-addon"><span class="glyphicon glyphicon-blackboard"></span></span>
+								<input autofocus type="text" class="form-control" placeholder="Subject" required>
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="control-label" for="">Category:</label>
+							<div class="input-group">
+								<span class="input-group-addon"><span class="glyphicon glyphicon-tasks"></span></span>
+								<select class="form-control" required>
+									<option value="complaint">Complaint</option>
+									<option value="sp_feedback">Portal Feedback</option>
+									<option value="suggestions">Suggestions</option>
+								</select>
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="control-label" for="">Summary:</label>
+							<textarea type="text" class="form-control" id="form-group-input" placeholder="Type your Summary here..." required></textarea>
+						</div>
+					</form>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<div class="wrapper">
+				<div class="row">
+					<div class="col-xs-12 col-sm-5 col-sm-push-7 cal">
+						<h1>Still Facing Probs?</h1>
+						<p>
+							Drop us a mail at <a href="mailto:sipb@nielit.local">sipb@nielit.local</a> or <a href="mailto:nielitsp@nielit.local">nielitsp@nielit.local</a><br><br>
+							Or contact the admins and webmasters
+							<table class="table">
+								<tr><th>Man</th><td>Contact</td></tr>
+								<tr><th>Man</th><td>Contact</td></tr>
+								<tr><th>Man</th><td>Contact</td></tr>
+								<tr><th>Man</th><td>Contact</td></tr>
+							</table>
+						</p>
+					</div>
+					<div class="col-xs-12 col-sm-7 col-sm-pull-5">
+						<h1 class="yellow">Reach out to your CR</h1>
+						// Contacts of CRs
+					</div>
+				</div>
+			</div>
+			<p>
+				&copy; 2015 SIPB<br>
+				National Institute of Electronics and Information Technology, Aurangabad
+			</p>
+		</footer>
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/alertify.min.js"></script>
+		<script type="text/javascript" src="js/jquery.sticky.js"></script>
+		<script type="text/javascript" src="js/app.js"></script>
+
+
+		<div class="modal fade in" id="login" tabindex="-1" role="dialog" aria-labelledby="loginLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<a href="#login" class="glyphicon glyphicon-remove-sign" data-dismiss="modal" aria-hidden="true"></a>
+						<h1 class="modal-title text-center" id="loginLabel">Login</h1>
+					</div>
+					<div class="modal-header row">
+						<div class="col-sm-5">
+							<img src="img/myspace.PNG" class="img-responsive">
+						</div>
+						<form class="col-sm-7 col-xs-12">
+							<div class="form-group">
+								<label class="sr-only" for="">Username</label>
+								<div class="input-group">
+									<span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+									<input type="text" class="form-control" placeholder="Username" required>
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="sr-only" for="">Password</label>
+								<div class="input-group">
+									<span class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></span>
+									<input type="password" class="form-control" placeholder="Password" required>
+								</div>
+							</div>
+							<button type="submit" class="btn btn-info"><span class="glyphicon glyphicon-log-in"></span> Log In</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

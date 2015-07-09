@@ -5,5 +5,8 @@ $(document).ready(function(){
 		$(this).cssToggle('color', '#eee');
 	});
 
-	$('body').scrollspy({ target: '.course-list' })
+	$('.course-list li a').click(function() {
+		$('.course-list li').removeClass('active');
+		$(this).closest('li').addClass('active');
+	});
 });
